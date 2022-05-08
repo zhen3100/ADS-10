@@ -1,5 +1,7 @@
 # Алгоритмы и структуры данных (ADS-10)
 
+![](images/undercons.jpg)
+
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/NNTU-CS/ADS-10)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/NNTU-CS/ADS-10)
 
