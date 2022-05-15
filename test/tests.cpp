@@ -27,5 +27,5 @@ TEST(ads10, test3) {
 TEST(ads10, test4) {
   Tree tree(std::vector<char>{'1', '2', '3'});
   std::vector<char> result = getPerm(tree, 8);
-  ASSERT_TRUE(result.size() == 0);
+  ASSERT_EQ(result.size(), 0);
 }
