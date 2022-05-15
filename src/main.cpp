@@ -4,7 +4,6 @@
 std::vector<char> getPerm(const Tree& tree, int n);
 
 int main() {
-
   // определяем входной вектор для дерева
   std::vector<char> in = {'1', '2', '3'};
 
