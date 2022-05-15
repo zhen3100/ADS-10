@@ -15,6 +15,5 @@ int main() {
 
   // запрашиваем вторую перестановку
   std::vector<char> result2 = getPerm(tree, 2);  //  132
-  
   return 0;
 }
