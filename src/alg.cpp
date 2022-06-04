@@ -4,7 +4,7 @@
 #include  <locale>
 #include  <cstdlib>
 #include  "tree.h"
-using namespace std;
+using std::vector;
 vector<char> getPerm(const Tree& tree, int n) {
   vector<char> res;
     for (int i = 0; i < tree[n - 1].length(); i++) {
