@@ -41,7 +41,7 @@ class Tree {
             Permut(root->iter[i], str);
         }
     }
- 
+
  public:
     string operator[](int i) const {
         if (i >= iter2.size()) {
