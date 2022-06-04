@@ -4,7 +4,8 @@
 #include <algorithm>
 #include <string>
 #include <vector>
-using namespace std;
+using std::string;
+using std::vector;
 class Tree {
  private:
     struct Node {
@@ -25,7 +26,7 @@ class Tree {
         for (size_t i = 0; i < root->iter.size(); i++) {
             root->iter[i]->value = ch[i];
             createTree(root->iter[i], ch);
-        } 
+        }
     }
     void Permut(Node* root, string str = "") {
         if (!root->iter.size()) {
@@ -38,10 +39,10 @@ class Tree {
         }
         for (int i = 0; i < root->iter.size(); i++) {
             Permut(root->iter[i], str);
-        } 
+        }
     }
-
-    public:
+ 
+ public:
     string operator[](int i) const {
         if (i >= iter2.size()) {
             return "";
